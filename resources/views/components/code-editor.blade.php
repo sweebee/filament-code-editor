@@ -29,6 +29,14 @@
         .cm-gutters {
             min-height: 150px !important;
         }
+
+        .dark .cm-gutters {
+            background-color: #444;
+        }
+        .dark .cm-activeLine {
+            background-color: #444;
+            border-color: #666;
+        }
     </style>
 
 </x-dynamic-component>
